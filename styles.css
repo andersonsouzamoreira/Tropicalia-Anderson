@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff; 
+    --alto-contraste-link: #ffd700; 
 }
 
 body {
@@ -165,3 +168,12 @@ h2 {
     .apresenta-lista{
     display: none;
     }
+
+    /*alto contraste*/
+
+    .alto-contraste{
+        background-color: var(--alto-contraste-fundo);
+        color: var(--alto-contraste-texto);
+    }
+
+    
